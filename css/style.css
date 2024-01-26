@@ -1,6 +1,10 @@
 /* navbar css */
 
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 20%;
+    z-index: 1000;
     height: 60px;
     width: 1050px;
     margin-left: auto;
@@ -65,7 +69,7 @@
 /* pseudo code */
 
 .nav-links .dropdown::after{
-    content: url(/icons/Vector.png);
+    content: url(../icons/Vector.png);
     margin-left: 5px;
 
 }
@@ -98,7 +102,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 140px;
 }
 
 .text-one {
@@ -127,6 +131,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 1050px; 
+    gap:30px;
   
   
 }
@@ -140,8 +145,8 @@
     height: 383px;
     background-color: #F4F4F4;
     margin-top: 70px;
-    margin-right: 35px; 
-}
+    }
+
 .content{
     width: 78%;
 }
@@ -188,7 +193,7 @@
     align-items: center;
     width: 72px;
     height: 72px;
-    background: url(/icons/Icon–1.svg);
+    background: url(../icons/Icon–1.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #40DDB6;
@@ -201,7 +206,7 @@
     align-items: center;
     width: 72px;
     height: 72px;
-    background: url(/icons/Icon-2.svg);
+    background: url(../icons/Icon-2.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #6B77E5;
@@ -213,7 +218,7 @@
     align-items: center;
     width: 72px;
     height: 72px;
-    background: url(/icons/Icon-3.svg);
+    background: url(../icons/Icon-3.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #40DDB6;
@@ -224,7 +229,7 @@
 
 .second-section{
     position: relative;
-    background-image: url(/icons/Rectangle\ 290.png);
+    background-image: url(../icons/Rectangle\ 290.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
@@ -253,7 +258,7 @@
     margin-top: 30px;
     width: 72px;
     height: 72px;
-    background: url(/icons/Vector-1.svg);
+    background: url(../icons/Vector-1.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #6B77E5;
@@ -314,8 +319,8 @@ h1{
     text-align: center;
     width: 386px;
     height: 383px;
-    background:url(/icons/Photo.png);
-    margin-right: 35px;
+    background:url(../icons/Photo.png);
+    gap:30px;
 }
 
 .content-container-four{
@@ -326,8 +331,8 @@ h1{
     text-align: center;
     width: 386px;
     height: 383px;
-    background:url(/icons/Photo-man.png);
-    margin-right: 35px;
+    background:url(../icons/Photo-man.png);
+    gap:40px;
 }
 
 .content-container-fifth{
@@ -337,8 +342,8 @@ h1{
     align-items: center;
     text-align: center;
     width: 386px;
-    background:url(/icons/Photo-woman.png);
-    margin-right: 35px;
+    background:url(../icons/Photo-woman.png);
+    gap:40px;
 }
 
 
