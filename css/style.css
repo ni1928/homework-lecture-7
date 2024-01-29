@@ -69,7 +69,7 @@
 /* pseudo code */
 
 .nav-links .dropdown::after{
-    content: url(../icons/Vector.png);
+    content: url(../icons/vector.png);
     margin-left: 5px;
 
 }
