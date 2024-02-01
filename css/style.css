@@ -1,9 +1,23 @@
 /* navbar css */
-
-.navbar {
+.header-wraper {
     position: fixed;
     top: 0;
-    left: 0;
+    left:0;
+    width: 100%;
+    z-index: 50;
+} 
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-block-header {
+    display: flex;
+    align-items: center;
+}
+.navbar {
     z-index: 1000;
     height: 60px;
     width: 1050px;
@@ -232,7 +246,7 @@
     background: url(../icons/background.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     margin-top: 60px;
     backdrop-filter:blur(7px) ;
     flex-shrink: 0;
@@ -311,7 +325,7 @@ h1{
     text-align: center;
     margin-top: 40px;
 }
-.content-container-third{
+.images{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -319,37 +333,30 @@ h1{
     text-align: center;
     width: 386px;
     height: 383px;
-    background-image:url(../photos/photo.png);
     gap:30px;
+}
+.content-container-third{
+    background-image:url(../photos/photo.png);
+  
 }
 
 .content-container-four{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 386px;
-    height: 383px;
     background-image:url(../photos/image.png);
-    gap:40px;
+  
 }
 
 .content-container-fifth{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 386px;
     background:url(../photos/image1.png);
-    gap:40px;
+   
 }
 
 
 .about-coworker{
+    display: flex;
+    justify-content: center;  ;
+    align-items: center;
     width: 250px;
-    height: 80px;
+    height: 100px;
     margin-top: 250px;
     background-color: white;
 }
@@ -376,7 +383,7 @@ h1{
     font-family: Poppins;
     font-size: 25px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     line-height: normal;
 }
 
