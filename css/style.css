@@ -319,7 +319,7 @@ h1{
     text-align: center;
     width: 386px;
     height: 383px;
-    background-image:url(../icons/photo.png);
+    background-image:url(../photos/photo.png);
     gap:30px;
 }
 
@@ -331,7 +331,7 @@ h1{
     text-align: center;
     width: 386px;
     height: 383px;
-    background-image:url(../icons/photoman.png);
+    background-image:url(../photos/image.png);
     gap:40px;
 }
 
@@ -342,7 +342,7 @@ h1{
     align-items: center;
     text-align: center;
     width: 386px;
-    background:url(../icons/photowoman.png);
+    background:url(../photos/image1.png);
     gap:40px;
 }
 
