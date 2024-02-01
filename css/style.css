@@ -3,7 +3,7 @@
 .navbar {
     position: fixed;
     top: 0;
-    left: 10%;
+    left: 0;
     z-index: 1000;
     height: 60px;
     width: 1050px;
@@ -69,7 +69,7 @@
 /* pseudo code */
 
 .nav-links .dropdown::after{
-    content: url(../icons/vector.png);
+    content: url(../photos/vector.png);
     margin-left: 5px;
 
 }
