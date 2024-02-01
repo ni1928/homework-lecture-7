@@ -258,7 +258,7 @@
     margin-top: 30px;
     width: 72px;
     height: 72px;
-    background-image: url(../icons/play.svg);
+    background: url(../icons/play.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #6B77E5;
